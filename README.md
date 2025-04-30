@@ -15,6 +15,8 @@ A powerful standalone AntiLoot system for FiveM servers using **ox_inventory**. 
 ## 📁 Installation
 
 1. **Download** script from this repository.
-2. Add the resource to your `server.cfg`:
+2. Add the script to your folders on your server.
+3. Add the name of your resource to your `server.cfg`:
    ```plaintext
+
    ensure AntiLoot
