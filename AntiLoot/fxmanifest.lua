@@ -22,17 +22,11 @@ lua54 'yes'
 
 server_scripts { 
     'src/server.lua', 
-    'config/sv_config.lua' 
+    'config/config.lua' 
 }
 
 --    [[ ESCROW SETTINGS ]]
 
 escrow_ignore {
     'config/**.lua'
-}
-
---    [[ SHARED SCRIPTS ]]
-
-shared_scripts {
-    'config/config.lua' 
 }
