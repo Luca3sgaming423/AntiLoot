@@ -16,12 +16,6 @@ Config.ItemFilter = {                             -- [[ Add here your protected 
     WEAPON_PISTOL = true
 }
 
--- [[ DISCORD LOGS ]]
-
-Config.EnableDiscordLogs = false
-
-Config.DiscordWebhook = 'YOUR_WEBHOOK_HERE'
-
 -- [[ LOCALES ]]
 
 Config.Locale = {                                 -- [[ Your Locales for Logs , Notifications etc.]]
