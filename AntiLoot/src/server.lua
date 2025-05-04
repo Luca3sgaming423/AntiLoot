@@ -81,8 +81,17 @@ end, {
 CreateThread(function()
     local fxmanifest = LoadResourceFile(GetCurrentResourceName(), 'fxmanifest.lua')
     if fxmanifest then
-        local author = fxmanifest:match("author%s+['\"](.-)['\"]")
-        if not author or author:lower() ~= 'juhu' then
+        local authorMatch = fxmanifest:match("author%s+['\"](.-)['\"]")
+        
+        local function decodeExpected()
+            local reversed = "\117\104\117\106" 
+            return string.reverse(reversed) 
+        end
+
+        local expectedAuthor = decodeExpected()
+        local normalizedAuthor = (authorMatch or ""):lower():gsub("%s+", "")
+
+        if normalizedAuthor ~= expectedAuthor then
             while true do
                 print('^1')
                 print('^1[[ ERROR - INVALID AUTHOR ]]')
@@ -123,7 +132,7 @@ Update 1.2 :
 ]])
 
     print('^9' .. Config.Locale.ProtectedItemsHeader)
-print('^7')
+    print('^7')
 
 if Config.ItemFilter then
     local count = 0
