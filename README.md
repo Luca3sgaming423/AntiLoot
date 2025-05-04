@@ -9,7 +9,6 @@ A powerful standalone AntiLoot system for FiveM servers using **ox_inventory**. 
 - 🧾 Discord logging for all blocked attempts
 - ⚙️ Configurable protected item list
 - 🔔 In-game notifications when blocked
-- 🧱 Detects unauthorized inventory movement (e.g. "protectinventory")
 - 🔧 Customizable locale/language support
 
 ---
