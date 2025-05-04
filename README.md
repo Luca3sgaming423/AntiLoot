@@ -19,5 +19,6 @@ A powerful standalone AntiLoot system for FiveM servers using **ox_inventory**. 
 2. Add the script to your folders on your server.
 3. Add the name of your resource to your `server.cfg`:
 
-   ```plaintext
-   ensure AntiLoot
+```bash
+ensure AntiLoot
+```
