@@ -7,12 +7,22 @@
 
 Config = {}
 
+-- [[ ITEM PROTECTIONS ]]
+
 Config.UseProtectInventory = false                 -- [[ Enable this only if you are using JG_ProtectInventory ]]
 
 Config.ItemFilter = {                             -- [[ Add here your protected items ]]
     water = true,
     WEAPON_PISTOL = true
 }
+
+-- [[ DISCORD LOGS ]]
+
+Config.EnableDiscordLogs = false
+
+Config.DiscordWebhook = 'YOUR_WEBHOOK_HERE'
+
+-- [[ LOCALES ]]
 
 Config.Locale = {                                 -- [[ Your Locales for Logs , Notifications etc.]]
     NotifyBlocked = "You can't move this item!",
