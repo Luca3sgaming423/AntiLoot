@@ -26,7 +26,7 @@ Config.DiscordWebhook = 'YOUR_WEBHOOK_HERE'
 
 Config.Locale = {                                 -- [[ Your Locales for Logs , Notifications etc.]]
     NotifyBlocked = "You can't move this item!",
-    DiscordTitle = "🚫 Blocked Move Attempt",
+    DiscordTitle = "🚫 Blocked Loot Attempt",
     DiscordDescription = "%s tried to loot something , keep an eye on them!",
     DiscordAction = "Action",
     DiscordFooter = "Anti Loot System",
